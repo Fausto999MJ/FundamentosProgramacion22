@@ -1,17 +1,27 @@
+//Programa que me permite ver que numero es mayor a otro
+// creado por Fausto Montaño
+// curso: 1ro "B" TICS
+
+
 #include<iostream>
 using namespace std;
 int main()
 {
-	float a,b;
-	cout<<"ingrese a b:"; cin>>a>>b;
-	if(a>b)
+	float F,S;
+	cout<<"ingrese F S:"; cin>>F>>S;
+	if(F>S)
 	{
-	  cout<<a<<" es mayor a "<<b<<endl;
+	  cout<<F<<" es mayor F "<<S<<endl;
 
 
-	}else{
+	}
 
-	  cout<<b<<" es mayor a "<<a<<endl;
+	else
+
+	{
+	
+
+	  cout<<S<<" es mayor F "<<F<<endl;
 
 
 	}
@@ -19,4 +29,6 @@ int main()
 
 	return 0;
 }
+
+//2022
 

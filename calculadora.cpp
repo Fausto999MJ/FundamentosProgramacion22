@@ -1,29 +1,31 @@
-//Programa que presenta las operaciones básicas
-//Creado por Stalin Francis 
-//Fecha: 14-09-2022
+//Programa que presenta las operaciones basicas en un programa de c++
+//Creado por Fausto Montaño
+//curso: 1ro "B" TICS
 
 #include<iostream>
 using namespace std;
 
 int main()
 {
-	float x,y,s,m,d,r;
+	float F,s,m,j,g,h;
 	//Ingreso de datos
-	cout<<"Ingrese en valor de x=:";
-	cin>>x;
-	cout<<"Ingrese en valor de y=:";
+	cout<<"Ingrese en valor de f=:";
+	cin>>F;
+	cout<<"Ingrese en valor de s=:";
 	//Operaciones 
-	cin>>y;
-	s=x+y;
-	m=x*y;
-	d=x/y;
-	r=x-y;
+	cin>>s;
+	m=F+s;
+	j=F*s;
+	g=F/s;
+	h=F-s;
 	//Muestra los resutaldos.
-	cout<<"Las suma de "<<x<<" + "<<y<<" = "<<s<<endl;
-	cout<<"Las multiplicacion de "<<x<<" * "<<y<<" = "<<m<<endl;
-	cout<<"Las division de "<<x<<" / "<<y<<" = "<<d<<endl;
-	cout<<"Las resta de "<<x<<" - "<<y<<" = "<<r<<endl;
+	cout<<"Las suma de "<<F<<" + "<<s<<" = "<<m<<endl;
+	cout<<"Las multiplicacion de "<<F<<" * "<<s<<" = "<<j<<endl;
+	cout<<"Las division de "<<F<<" / "<<s<<" = "<<g<<endl;
+	cout<<"Las resta de "<<F<<" - "<<s<<" = "<<h<<endl;
 	return 0 ;
 
 }
+
+//2022
 
